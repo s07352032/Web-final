@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+        <title>HashBrowny記帳系統</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Open+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/68f8681dba.js" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>hashbrowny</title>
+        <style>
+            header {
+                background-color: #3f2a5c
+            }
+            body {
+                background-color: #cfbad4
+            }
+            footer {
+                margin-top: 100px;
+            }
+            .card {
+                border-top: 4px solid #F8BBD0;
+                background-color: #59406e
+            }
+            .dot {
+                height: 50px;
+                width: 50px;
+                background-color: #ad63b9;
+                border-radius: 50%;
+                display: inline-block
+            }
+            .social-icons {
+                list-style: none;
+                display: inline-flex;
+                right: 16px;
+                position: relative
+            }
+            .social-icons li {
+                padding: 10px
+            }
+            .social-icons li i {
+                line-height: 50px;
+                position: relative;
+                font-size: 20px;
+                color: #fff
+            }
+            .form-text-color {
+                color: #df9de8 !important
+            }
+            .form-control {
+                background-color: transparent;
+                margin-top: 10px;
+                border: 1px solid #9952a5
+            }
+            .form-control:focus {
+                box-shadow: none;
+                background-color: transparent;
+                border: 1px solid #71357b
+            }
+            .register {
+                text-decoration: underline
+            }
+            .btn {
+                background: linear-gradient(to right, #E55D87 0%, #5FC3E4 100%);
+                border: none;
+                height: 45px;
+                transition: all 3s
+            }
+            .btn:hover {
+                background: linear-gradient(to right, #5FC3E4 0%, #E55D87 100%)
+            }
+            .btn:focus {
+                box-shadow: none
+            }
+            .row {
+                margin-right: 0px;
+
+            }
+            #foot {
+                background-color: #3f2a5c;
+                padding-top: 50px;
+
+            }
+            #foot h4 {
+                color: #fff;
+            }
+            #foot p {
+                color: #fff;
+            }
+            #foot img {
+                border-radius: 50%;
+                margin-bottom: 50px;
+            }
+            
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class=" text-center py-5 mb-4 new">
+                <div class="container">
+                    <h1 class="font-weight-light text-white">HashBrowny 記帳系統</h1>
+                </div>
+            </header>
+           
+            <div class="container mt-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-5">
+                        <div class="card p-3 text-center">
+                            <h5 class="form-text-color">Connect with us</h5>
+                            <div class="d-flex justify-content-center mt-1">
+                                <ul class="social-icons">
+                                    <li> <span class="dot"><i class="fa fa-facebook"></i></span> </li>
+                                    <li> <span class="dot"><i class="fa fa-twitter"></i></span> </li>
+                                    <li> <span class="dot"><i class="fa fa-linkedin"></i></span> </li>
+                                </ul>
+                            </div>
+                            <h4 class="form-text-color">Login Form</h4>
+                            <div class="form"> <input type="text" class="form-control" placeholder="Email"> <input type="text" class="form-control" placeholder="Password"> </div>
+                            <div class="d-flex justify-content-between mt-3 mb-3">
+                                <div class="form-check"> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <label class="form-check-label form-text-color" for="flexCheckDefault"> Remember password? </label> </div> <a class="form-text-color register" href="#">Register Here</a>
+                            </div> <button class="btn btn-success" onclick="self.location.href='accounting.html'">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+	        
+                <section id='foot'>
+                    <div class='row'>
+                          <div class='col-md-4 text-center'>
+                            <img src='logo.png' width='250'>
+                          </div>
+                          <div class='col-md-4 text-left'>
+                              <h4>連結</h4>
+                              <ul>
+                                  <li><a href='##'>主頁</a></li>
+                                  <li><a href='##'>關於我們</a></li>
+                              </ul>
+                              <ul>
+                                  <li><a href='##'>Instagram</a></li>
+                            
+                              </ul>						  
+                          </div>
+                          <div class='col-md-4 text-left'> 
+                              <h4>聯絡我們</h4>
+                              <p>THU CS<br>
+                                 <br>
+                                 E-Mail: <a href='mailto:s07352032@thu.edu.tw'>s07352032@thu.edu.tw</a>
+                              </p>
+                          </div>
+                    </div>
+                </div>	        
+                </section>
+            </footer>
+    </body>
